@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+*.lot
+*.lof
+*.nav
+*.snm
+*.vrb
+
+# Computation logs (regenerable; many MBs of raw output)
+computations/*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude harness local settings
+.claude/
