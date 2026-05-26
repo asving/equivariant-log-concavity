@@ -5,9 +5,23 @@
 This document is the entry point for any future instance continuing this project. It assumes familiarity with the surrounding matroid combinatorics literature (AHK, Brändén–Huh, ALOGV, Karn–Wakefield, etc.).
 
 For the **proven theorem (paving ELC)**, see `PAPER.md`/`PAPER.tex`/`PAPER.pdf`.
-For the **journey**, see `notes/HISTORY.md` and notes 18–32 chronologically.
+For the **journey**, see `notes/HISTORY.md` and notes 18–36 chronologically.
 For the **detailed earlier exploration**, see `notes/archive/`.
-For the **geometric proof framework** developed in the latest session, see `notes/27` → `28` → `30` → `32`.
+For the **geometric proof framework**, see `notes/27` → `28` → `30` → `32`.
+For the **Hall + matroid intersection proofs**, see `notes/33` → `34` → `35` → `36`.
+
+## Proof status (2026-05-25 evening)
+
+The project's main conjecture (PAPER §5.3) is now proven in:
+- **Paving matroids**: all d≥2 bigrades (PAPER §4).
+- **Any matroid at d ≥ m+1 bigrades** (notes/33, via Hall's marriage theorem).
+- **Simple matroids at m=2 d=2 boundary** (n=6, rank=4) (notes/34, refined Hall via girth).
+- **High-girth matroids at d=2 boundary** (girth > corank+1) (notes/36, alternative Hall proof).
+- **Triangle = U(2,3) completely** (notes/28, geometric via Kähler HL on Bl_p((P^1)^3)).
+
+**Open remaining:** d=2 boundary at m ≥ 3 for low-girth (girth ≤ corank+1) non-paving non-uniform matroids. Structural foundation laid: **X_m at d=2 boundary IS standard matroid intersection** Indep(M) ∩ Indep(M*) (notes/34), connecting to ALOV's Lorentzian polynomial machinery.
+
+The remaining case is empirically verified extensively and well-characterized. Path forward: ALOV polynomial capacity adapted to give bipartite operator rank statements.
 
 ## Goal
 
